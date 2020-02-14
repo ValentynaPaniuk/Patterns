@@ -43,7 +43,7 @@ public:
 		cout << "================\nCAR: " << name << endl;
 		for (auto el : parts)
 		{
-			cout << el.first << "\t" << el.second << endl;
+			cout << el.first << "\t\t\t" << el.second << endl;
 		}
 	}
 
@@ -102,19 +102,19 @@ public:
 	};
 	void SetEngine()
 	{
-		this->car->SetPart("Engine", "Yes");
+		this->car->SetPart("Engine      ", "Yes");
 	};
 	void SetWheels()
 	{
-		this->car->SetPart("Wheels", "Yes");
+		this->car->SetPart("Wheels       ", "Yes");
 	};
 	void SetPainting()
 	{
-		this->car->SetPart("Painting", "Red");
+		this->car->SetPart("Painting     ", "Red");
 	};
 	void SetSalon()
 	{
-		this->car->SetPart("Salon", "Yes");
+		this->car->SetPart("Salon        ", "Yes");
 	};
 
 	
@@ -134,19 +134,19 @@ public:
 	};
 	void SetEngine()
 	{
-		this->car->SetPart("Engine", "Yes 1");
+		this->car->SetPart("Engine       ", "Yes 1");
 	};
 	void SetWheels()
 	{
-		this->car->SetPart("Wheels", "Yes 1");
+		this->car->SetPart("Wheels      ", "Yes 1");
 	};
 	void SetPainting()
 	{
-		this->car->SetPart("Painting", "Blue");
+		this->car->SetPart("Painting    ", "Blue");
 	};
 	void SetSalon()
 	{
-		this->car->SetPart("Salon", "Yes 1");
+		this->car->SetPart("Salon       ", "Yes 1");
 	};
 
 };
@@ -165,19 +165,19 @@ public:
 	};
 	void SetEngine()
 	{
-		this->car->SetPart("Engine", "Yes 2");
+		this->car->SetPart("Engine      ", "Yes 2");
 	};
 	void SetWheels()
 	{
-		this->car->SetPart("Wheels", "Yes 2");
+		this->car->SetPart("Wheels      ", "Yes 2");
 	};
 	void SetPainting()
 	{
-		this->car->SetPart("Painting", "Yelow");
+		this->car->SetPart("Painting     ", "Yelow");
 	};
 	void SetSalon()
 	{
-		this->car->SetPart("Salon", "Yes 2");
+		this->car->SetPart("Salon        ", "Yes 2");
 	};
 
 };
