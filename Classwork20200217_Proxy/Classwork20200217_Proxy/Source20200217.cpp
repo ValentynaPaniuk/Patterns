@@ -30,18 +30,10 @@ class Account : public Bank
 {
 	public:
 
-		Account()
-		{
+		Account() {};
 
-		};
-		virtual void ShowInfo()
-		{
-			cout << "Information about funds in the account ";
-		}
-		virtual void Withdrawals()
-		{
-			cout << "Cash withdrawal ";
-		}
+		virtual void ShowInfo()		{	cout << "Information about funds in the account " <<endl;	}
+		virtual void Withdrawals() 	{   cout << "Cash withdrawal "<<endl;	}
 
 };
 
@@ -68,28 +60,17 @@ public:
 
 	virtual void ShowInfo()
 	{
-		if (ISAuthenticated())
-		{
-			cout << "\nAuthentication Success ";
+		
+			cout << "Authentication Success "<<endl;
+			cout << "Client: " << this->UserName << "Accounts numbers: " << this->number << endl;
 			account.ShowInfo();
-		}
-		else
-		{
-			cout << "\nAuthentication Failure, You can't open the Account" << endl;
-		}
+		
 	}
 
 	virtual void Withdrawals()
 	{
-		if (ISAuthenticated())
-		{
-			cout << "Cash withdrawal ";
-		}
-		else
-		{
-			cout << "\nAuthentication Failure, You can't withdrawal money" << endl;
-		}
-
+		cout << "Client: " << this->UserName << "Accounts numbers: " << this->number << endl;
+		account.Withdrawals();
 	}
 
 	~ATM()
@@ -102,7 +83,9 @@ int main()
 {
 
 	Bank *account = new ATM("Ivanov", "123", 123456);
+	cout << "Show information about account" << endl;
 	account->ShowInfo();
+	cout << "\n\nWithdrawals cash" << endl;
 	account->Withdrawals();
 
 
