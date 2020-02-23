@@ -1,6 +1,2 @@
-TOTAL NUMBER OF TASKS:4
+TOTAL NUMBER OF TASKS:0
 Priority    Tag    Name Affair                      Time
-15		+	Write list1			20200220				
-55		-	Write new list2			20200208		
-1		+	sdfsdsdfsdf			2020		
-3		-	sssssssssssss			2030		

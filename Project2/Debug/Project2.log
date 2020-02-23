@@ -1,0 +1,19 @@
+﻿  Source.cpp
+d:\шаг\patterns\project2\source.cpp(65): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\project2\source.cpp(86): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\project2\source.cpp(114): error C2065: Case1: необъявленный идентификатор
+d:\шаг\patterns\project2\source.cpp(114): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "tmp"
+d:\шаг\patterns\project2\source.cpp(114): error C2065: tmp: необъявленный идентификатор
+d:\шаг\patterns\project2\source.cpp(116): error C2065: tmp: необъявленный идентификатор
+d:\шаг\patterns\project2\source.cpp(118): error C2065: tmp: необъявленный идентификатор
+d:\шаг\patterns\project2\source.cpp(120): error C2065: tmp: необъявленный идентификатор
+d:\шаг\patterns\project2\source.cpp(122): error C2065: tmp: необъявленный идентификатор
+d:\шаг\patterns\project2\source.cpp(123): error C2065: tmp: необъявленный идентификатор
+d:\шаг\patterns\project2\source.cpp(137): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\project2\source.cpp(160): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\project2\source.cpp(183): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\project2\source.cpp(206): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\project2\source.cpp(234): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\project2\source.cpp(262): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\project2\source.cpp(289): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\project2\source.cpp(313): warning C4018: <: несоответствие типов со знаком и без знака

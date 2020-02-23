@@ -95,6 +95,7 @@ public:
 
 
 
+
 class PlanningSystem : protected Affair
 {
 	void ShowAll(vector <Affair> &todolist)
@@ -371,7 +372,7 @@ public:
 	
 	bool Menu(vector <Affair> todolist)
 	{
-		int choice;
+		int choice = 7;
 
 		for (;;) {
 			cout << "========= Planning System =============" << endl;
@@ -388,8 +389,9 @@ public:
 			cout << "11. Find affair by tag" << endl;
 			cout << "12. Find affair by priority" << endl;
 			cout << "0.  Exit" << endl;
+			Read_from_file(todolist);
 			
-			cin >> choice;
+			//cin >> choice;
 			switch (choice)
 			{
 			case 1:// "1.  Show to do list " << endl;
@@ -429,6 +431,23 @@ public:
 			case 7://"7.  Read from file list to do" << endl;
 				system("cls");
 				Read_from_file(todolist);
+				ShowAll(todolist);
+
+				cout << "========= Planning System =============" << endl;
+				cout << "1.  Show to do list " << endl;
+				cout << "2.  Add new affair" << endl;
+				cout << "3.  Set priorities Affair" << endl;
+				cout << "4.  Set execution dates" << endl;
+				cout << "5.  Delete Affair" << endl;
+				cout << "6.  Change Affair" << endl;
+				cout << "7.  Read from file list to do" << endl;
+				cout << "8.  Save in file list to do" << endl;
+				cout << "9.  Find affair" << endl;
+				cout << "10. Find affair by date" << endl;
+				cout << "11. Find affair by tag" << endl;
+				cout << "12. Find affair by priority" << endl;
+				cout << "0.  Exit" << endl;
+				cin >> choice;
 				system("pause");
 
 				break;
@@ -472,8 +491,7 @@ public:
 		}
 
 	}
-
-
+	
 
 
 };
@@ -490,11 +508,7 @@ int main()
 	PlanningSystem list;
 	list.Menu(todolist);
 	
-	
-	
-	
-	
-	
+		
 	
 
 	
