@@ -1,6 +1,12 @@
 ﻿  Source20200221.cpp
-d:\paniuk\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(112): warning C4018: '<': signed/unsigned mismatch
-d:\paniuk\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(163): warning C4018: '<': signed/unsigned mismatch
-d:\paniuk\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(186): warning C4018: '<': signed/unsigned mismatch
-d:\paniuk\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(209): warning C4018: '<': signed/unsigned mismatch
-  ControlWork20200221.vcxproj -> D:\Paniuk\Patterns\ControlWork20200221\Debug\ControlWork20200221.exe
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(104): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(125): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(176): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(199): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(222): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(245): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(273): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(301): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(328): warning C4018: <: несоответствие типов со знаком и без знака
+d:\шаг\patterns\controlwork20200221\controlwork20200221\source20200221.cpp(352): warning C4018: <: несоответствие типов со знаком и без знака
+  ControlWork20200221.vcxproj -> D:\Шаг\Patterns\ControlWork20200221\Debug\ControlWork20200221.exe
