@@ -242,7 +242,7 @@ class PlanningSystem : protected Affair
 		int x;
 		bool exit = false;
 		cout << "Enter the case number that you want to change: " << endl; cin >> x;
-
+		todolist[x].ShowInfo();
 		for (int i = 0; i < todolist.size(); i++)
 		{
 
@@ -270,7 +270,7 @@ class PlanningSystem : protected Affair
 		int x;
 		bool exit = false;
 		cout << "Enter the case number that you want to change: " << endl; cin >> x;
-
+		todolist[x].ShowInfo();
 		for (int i = 0; i < todolist.size(); i++)
 		{
 
@@ -298,11 +298,13 @@ class PlanningSystem : protected Affair
 		int x;
 		bool exit = false;
 		cout << "Enter the case number that you want to change: " << endl; cin >> x;
+		todolist[x].ShowInfo();
 
 		for (int i = 0; i < todolist.size(); i++)
 		{
 			if ((x - 1) == i)
 			{
+
 				string text;
 				cout << "Enter the corrected execution day: " << endl; cin >> text;
 				todolist[i].SetTime(text);
@@ -373,8 +375,9 @@ public:
 	bool Menu(vector <Affair> todolist)
 	{
 		int choice = 7;
-
+		
 		for (;;) {
+
 			cout << "========= Planning System =============" << endl;
 			cout << "1.  Show to do list " << endl;
 			cout << "2.  Add new affair" << endl;
@@ -389,9 +392,9 @@ public:
 			cout << "11. Find affair by tag" << endl;
 			cout << "12. Find affair by priority" << endl;
 			cout << "0.  Exit" << endl;
-			Read_from_file(todolist);
 			
-			//cin >> choice;
+			cin >> choice;
+		
 			switch (choice)
 			{
 			case 1:// "1.  Show to do list " << endl;
@@ -405,6 +408,7 @@ public:
 				todolist.push_back(Affair(1));
 				system("pause");
 				break;
+							
 			case 3://"3.  Set priorities Affair" << endl;
 				system("cls");
 				SetPriority_(todolist);
@@ -431,23 +435,8 @@ public:
 			case 7://"7.  Read from file list to do" << endl;
 				system("cls");
 				Read_from_file(todolist);
-				ShowAll(todolist);
-
-				cout << "========= Planning System =============" << endl;
-				cout << "1.  Show to do list " << endl;
-				cout << "2.  Add new affair" << endl;
-				cout << "3.  Set priorities Affair" << endl;
-				cout << "4.  Set execution dates" << endl;
-				cout << "5.  Delete Affair" << endl;
-				cout << "6.  Change Affair" << endl;
-				cout << "7.  Read from file list to do" << endl;
-				cout << "8.  Save in file list to do" << endl;
-				cout << "9.  Find affair" << endl;
-				cout << "10. Find affair by date" << endl;
-				cout << "11. Find affair by tag" << endl;
-				cout << "12. Find affair by priority" << endl;
-				cout << "0.  Exit" << endl;
-				cin >> choice;
+				//ShowAll(todolist);
+			
 				system("pause");
 
 				break;
